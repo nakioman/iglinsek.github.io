@@ -26,7 +26,13 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/avatar.jpg"  alt="Profile picture" /></span>
+							<span class="avatar">
+								<picture>
+									<source srcset="images/avatar.webp" type="image/webp" alt="Profile picture" width="274" height="274">
+									<source srcset="images/avatar.jpg" type="image/jpeg" alt="Profile picture"  width="274" height="274">
+									<img src="images/avatar.jpg" alt="Profile picture"  width="274" height="274">
+								</picture>
+							</span>
 							<h1>Ignacio Glinsek</h1>
 							<p>Senior Software Developer</p>
 						</header>
